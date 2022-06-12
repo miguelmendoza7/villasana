@@ -1,0 +1,329 @@
+
+
+
+.select-tag{
+    border-top: 1px solid black;
+}
+
+.margin-3{
+    margin-left: 0.3rem;
+
+}
+
+.margin-1{
+    margin-left: 0.2rem;
+    margin-right: 0.5rem;
+    border-top: 1px solid black;
+}
+
+.margin-2{
+    margin-left: 0.5rem;
+    margin-right: 0.2rem;
+}
+
+
+.clock-medicine{
+    color: black ;
+    margin-left: 15px;
+    margin-right: 10px;
+
+}
+
+.clock-medicine:hover{
+     cursor: pointer;
+
+}
+
+.no-margin{
+    margin-top: -1.29rem;
+}
+
+.gray-card{
+    background-color: rgb(241, 241, 241);
+    padding-left: 0.5rem;
+}
+
+.gray-card:hover{
+    background-color: rgb(230, 228, 228);
+    cursor: pointer;
+}
+
+.medicines-input{
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    font-size: 0.9rem;
+    color: rgb(70, 70, 70) !important;
+
+
+}
+.hey{
+    float: left;
+}
+
+.yesi{
+    clear: left;
+}
+.search-bar{
+
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.patient-name{
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: center;
+
+
+}
+
+.search-bar-div{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: white;
+   
+}
+
+
+.medicine-input::placeholder{
+    color: gray;
+
+
+}
+
+.medicine-input{
+    font-size: 1rem ;
+
+    height: 2.35rem;
+}   
+
+
+.profession-input{
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    font-size: 0.9rem;
+    color: rgb(70, 70, 70) !important;
+
+
+}
+
+.profession-input::placeholder{
+    color: rgb(70, 70, 70);
+    font-size: 0.9rem;
+
+}
+
+input[type=date]{
+    font-size: 0.9rem !important;
+    color: rgb(70, 70, 70) !important ; 
+}
+
+
+
+input:focus{
+    outline: none !important;
+}
+
+
+
+select:focus{
+    outline: none !important;
+
+    
+}
+
+.medicine-input:focus{
+   outline: none;
+
+    border-bottom: 1px solid gray;
+}  
+
+.center-buttons{
+    display: flex;
+    justify-content: center ;
+    align-items: center ;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+.inline{
+    display: inline-block ;
+    position: relative;
+
+}
+
+.extra-data{
+    font-size: 0.9rem;
+}
+
+.consult-text{
+    font-size: 1rem !important;
+}
+
+.medicines-text{
+    font-size: 1rem ;
+}
+
+.not-found{
+    text-align: center;
+    margin-top: 5rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #326c83;
+}
+
+
+.privacy-button{
+    margin-top: -0.7rem !important;
+    font-size: 1.1rem !important;
+    margin-bottom: 1.5rem;
+}
+
+
+.presentation{
+    border: 0px;
+}
+
+
+
+
+
+
+
+
+.patient-email{
+    margin-left: 10px;
+    text-align: center;
+    
+
+}
+
+.user-not-found{
+    color: #3E88A5;
+   
+    margin-top: 0.5rem;
+    font-weight: 600;
+    font-size: 1.5rem;
+
+}
+
+
+
+
+
+
+
+.input-search-bar{
+    padding-left: 0.5rem;
+
+    width: 12rem;
+    height: 2.2rem;
+    border-radius: 0px !important;
+    border: 1px solid gray;
+    font-size: 0.8rem;
+    border-radius: 0.5rem;
+   
+}
+
+.search-button{
+    background-color: #3E88A5;
+    height: 2.2rem;
+    font-size: 0.8rem;
+    color: white;
+}
+.search-button:hover{
+color: white;
+    background-color: #2d6175;
+}
+@media screen and (min-width: 370px){
+
+   
+    
+    .input-search-bar{
+        font-size: 0.85rem;
+        min-width: 15rem;
+       
+    }
+
+    
+ 
+}
+
+@media screen and (min-width: 450px){
+
+   
+    
+    .input-search-bar{
+        height: 2.5rem;
+        font-size: 0.9rem;
+        min-width: 20rem;
+       
+    }
+
+    .search-button{
+        height: 2.5rem;
+        font-size: 1rem;
+
+    }
+    
+
+    
+}
+
+
+
+@media screen and (min-width: 768px){
+  
+
+   
+    .space-between-button-search-bar{
+        margin-top: 1.5rem;
+
+    }
+
+    .presentation{
+        float: left;
+        
+    }
+
+    .user-not-found{
+       
+        font-size: 2rem;
+        text-align: left;
+        margin-left: 1rem;
+    
+    }
+    
+    .input-search-bar{
+        height: 2.5rem;
+        font-size: 1rem;
+        min-width: 20rem;
+       
+    }
+
+    .search-button{
+        height: 2.5rem;
+    }
+    
+ 
+}
+
+@media screen and (min-width: 1024px){
+
+
+    
+    .input-search-bar{
+        height: 2.7rem;
+        font-size: 1rem;
+        min-width: 25rem;
+       
+    }
+
+    .search-button{
+        height: 2.7rem;
+    }
+    
+ 
+}

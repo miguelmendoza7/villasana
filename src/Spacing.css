@@ -1,0 +1,13 @@
+.container-spacing{
+    margin-left: 67px;
+    margin-top: 20px;
+}
+
+@media screen and (min-width: 768px){
+    .container-spacing{
+        margin-left: 208px;
+        margin-top: 20px;
+    }
+    
+  }
+

@@ -1,0 +1,34 @@
+.name-text{
+ font-size: 1.7rem !important;
+ margin-top: 0.5rem;
+ font-weight: bold;
+}
+
+.email-text{
+    font-size: 1.2rem !important;
+    margin-left: 0.4rem;
+
+}
+
+
+@media screen and (min-width: 768px){
+    .name-text{
+        font-size: 2rem;
+       }
+       .email-text{
+        font-size: 1.25rem;
+        margin-bottom: 2rem;
+    
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .name-text{
+        font-size: 2.5rem;
+       }
+       .email-text{
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
+    
+    }
+}

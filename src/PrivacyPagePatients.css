@@ -1,0 +1,145 @@
+.privacy-page-title{
+    position: relative; 
+
+    font-weight: bolder;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.search-user{
+    height: 2.5rem;
+
+}
+
+.consults-patients-doctor-text{
+    font-size: 0.8rem ;
+}
+
+.consults-patients-text{
+    font-size: 1rem ;
+
+
+}
+
+.not-user-found{
+    text-align: center;
+    font-size: 1.5rem;
+    color: #326c83;
+    font-weight: 700;
+}
+
+.card-presentation{
+    margin-top: 2.5rem ;
+}
+
+.search-user-text{
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin-left: 0.5rem;
+}
+
+.search-user-input{
+    border: 1px solid gray;
+    border-radius: 0.2rem;
+    height: 2.5rem;
+
+    font-size: 1rem !important;
+    padding-left: 0.5rem;
+
+}
+
+.privacy-page-subtitle{
+    position: relative; 
+    font-weight: bolder;
+    font-size: 1.3rem;
+    text-align: center;
+    margin-top: 3rem;
+
+}
+
+.modal-text{
+     
+    font-size: 0.95rem;
+    word-wrap: break-word;
+
+ }
+
+.modal-button{
+   background-color: #3E88A5;
+}
+.modal-button:hover{
+    background-color: #326c83;
+ }
+
+.accept-request-button{
+    font-size: 0.8rem !important;
+   margin-left: 0.3rem;
+}
+.delete-request-button{
+    font-size: 0.8rem !important;
+}
+.request-user{
+    cursor: pointer;
+    font-size: 1rem !important;
+    margin-right: 1rem;
+}
+
+.request-user:hover{
+    color: rgb(71, 71, 71);
+}
+
+@media screen and (min-width: 768px){
+    .modal{
+        position: fixed;
+  overflow: scroll;
+  width: 100%;
+  padding-right: 0!important;
+        position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+    }
+
+    .search-user-input{
+        font-size: 0.9rem;
+    
+    }
+
+   
+    
+ 
+}
+
+
+@media screen and (min-width: 990px){
+   
+
+    .request-user{
+        display: inline-flex; 
+    }
+    
+    .search-user-input{
+        font-size: 1rem;
+    
+    }
+ 
+}
+
+@media screen and (min-width: 1200px){
+
+    .request-user{
+        font-size: 1.3rem;
+    }
+    .accept-request-button{
+        font-size: 1rem;
+    }
+    .delete-request-button{
+        font-size: 1rem;
+    }
+
+    .search-user-input{
+        font-size: 1.3rem;
+    
+    }
+    
+ 
+}
